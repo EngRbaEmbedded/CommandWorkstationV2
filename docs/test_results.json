@@ -1,0 +1,116 @@
+{
+  "project_root": "/home/rbabynho/workspace/Command_Workstation",
+  "database_path": "/home/rbabynho/.local/share/CommandWorkstation/Command Workstation/command_workstation.sqlite",
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  },
+  "test_cases": [
+    {
+      "test_id": "TF-01",
+      "name": "Inicialização e SQLite",
+      "passed": true,
+      "evidence": "Banco em /home/rbabynho/.local/share/CommandWorkstation/Command Workstation/command_workstation.sqlite; tabelas=['presets', 'run_log', 'settings', 'sqlite_sequence']; presets=8",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-02",
+      "name": "Detecção de repositório Git",
+      "passed": true,
+      "evidence": "branch=master; status=## No commits yet on master\nAM ../EcoPermarket/EcoPermarket/assets/logo.png\nAD ../EcoPermarket/EcoPermarket/build/Deskto",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-03",
+      "name": "Execução de comando preset (pwd)",
+      "passed": true,
+      "evidence": "run_log id=9; exit=0; duration_ms=1",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-04",
+      "name": "Preset Git short status",
+      "passed": true,
+      "evidence": "exit=0; saída=## No commits yet on master\nAM ../EcoPermarket/EcoPermarket/assets/logo.png\nAD ../EcoPermarket/EcoPe",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-05",
+      "name": "Persistência de preset personalizado",
+      "passed": true,
+      "evidence": "INSERT/SELECT/DELETE em categoria Personalizados",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-06",
+      "name": "Comando customizado no terminal",
+      "passed": true,
+      "evidence": "exit=0; duration_ms=1",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-07",
+      "name": "Interrupção de processo em execução",
+      "passed": true,
+      "evidence": "sleep 20 terminado via SIGTERM (equivalente ao botão Stop)",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-08",
+      "name": "Protótipo compilado disponível",
+      "passed": true,
+      "evidence": "/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release/appCommand_Workstation",
+      "notes": ""
+    },
+    {
+      "test_id": "TF-09",
+      "name": "Ambiente de build (cmake disponível)",
+      "passed": true,
+      "evidence": "cmake version 4.2.3",
+      "notes": ""
+    }
+  ],
+  "metrics": {
+    "total_execucoes": 11,
+    "total_presets": 8,
+    "por_exit_code": {
+      "0": 3,
+      "1": 7,
+      "128": 1
+    },
+    "tempo_medio_ms_sucesso": 4.0,
+    "comandos_mais_usados": [
+      [
+        "sudo apt update",
+        4
+      ],
+      [
+        "sudo apt upgrade",
+        2
+      ],
+      [
+        "git status -sb",
+        2
+      ],
+      [
+        "pwd",
+        1
+      ],
+      [
+        "echo MVP_VALIDATION_OK",
+        1
+      ],
+      [
+        "cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug",
+        1
+      ]
+    ],
+    "tabelas": [
+      "presets",
+      "run_log",
+      "settings",
+      "sqlite_sequence"
+    ]
+  }
+}

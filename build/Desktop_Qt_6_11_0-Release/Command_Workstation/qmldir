@@ -1,0 +1,6 @@
+module Command_Workstation
+typeinfo appCommand_Workstation.qmltypes
+prefer :/qt/qml/Command_Workstation/
+Main 254.0 Main.qml
+depends QtQuick
+

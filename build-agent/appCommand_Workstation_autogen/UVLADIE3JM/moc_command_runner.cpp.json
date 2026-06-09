@@ -1,0 +1,103 @@
+{
+    "classes": [
+        {
+            "className": "CommandRunner",
+            "lineNumber": 8,
+            "object": true,
+            "qualifiedClassName": "CommandRunner",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "text",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "isStdErr",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "lineNumber": 24,
+                    "name": "outputLine",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "executable",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "arguments",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "index": 1,
+                    "lineNumber": 25,
+                    "name": "started",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "exitCode",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 2,
+                    "lineNumber": 26,
+                    "name": "finished",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "index": 3,
+                    "lineNumber": 21,
+                    "name": "stop",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "lineNumber": 29,
+                    "name": "forwardStdout",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "lineNumber": 30,
+                    "name": "forwardStderr",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "exitCode",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 6,
+                    "lineNumber": 31,
+                    "name": "onFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "command_runner.h",
+    "outputRevision": 69
+}

@@ -1,0 +1,14 @@
+-rootPath
+/home/rbabynho/workspace/Command_Workstation
+-cmake-output
+-output-file
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Debug/.qt/qml_imports/appCommand_Workstation_conf.cmake
+-importPath
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Debug
+-importPath
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Debug/Command_Workstation
+-importPath
+/home/rbabynho/Qt/6.11.0/gcc_64/qml
+-qrcFiles
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Debug/.qt/rcc/qmake_Command_Workstation.qrc
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Debug/.qt/rcc/appCommand_Workstation_raw_qml_0.qrc

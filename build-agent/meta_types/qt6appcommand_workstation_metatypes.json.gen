@@ -1,0 +1,607 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CommandRunner",
+                "lineNumber": 8,
+                "object": true,
+                "qualifiedClassName": "CommandRunner",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "text",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isStdErr",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "lineNumber": 24,
+                        "name": "outputLine",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "executable",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "arguments",
+                                "type": "QStringList"
+                            }
+                        ],
+                        "index": 1,
+                        "lineNumber": 25,
+                        "name": "started",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "exitCode",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 2,
+                        "lineNumber": 26,
+                        "name": "finished",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 21,
+                        "name": "stop",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 4,
+                        "lineNumber": 29,
+                        "name": "forwardStdout",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 5,
+                        "lineNumber": 30,
+                        "name": "forwardStderr",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "exitCode",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 31,
+                        "name": "onFinished",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "command_runner.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "DatabaseManager",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "DatabaseManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "database_manager.h",
+        "outputRevision": 69
+    },
+    {
+        "classes": [
+            {
+                "className": "WorkstationBridge",
+                "lineNumber": 13,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "lineNumber": 43,
+                        "name": "initDatabase",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "lineNumber": 44,
+                        "name": "presetGroups",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "limit",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 11,
+                        "lineNumber": 45,
+                        "name": "recentRuns",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "isCloned": true,
+                        "lineNumber": 45,
+                        "name": "recentRuns",
+                        "returnType": "QVariantList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "presetId",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 13,
+                        "lineNumber": 46,
+                        "name": "runPreset",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "command",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 14,
+                        "lineNumber": 47,
+                        "name": "runShellCommand",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 15,
+                        "lineNumber": 48,
+                        "name": "stopCommand",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 16,
+                        "lineNumber": 49,
+                        "name": "refreshGit",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 17,
+                        "lineNumber": 50,
+                        "name": "gitPull",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 18,
+                        "lineNumber": 51,
+                        "name": "gitPush",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "url",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 19,
+                        "lineNumber": 52,
+                        "name": "pickFolderUrl",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "url",
+                                "type": "QUrl"
+                            }
+                        ],
+                        "index": 20,
+                        "isConst": true,
+                        "lineNumber": 53,
+                        "name": "urlToLocalPath",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "command",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cwd",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "buttonColor",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 21,
+                        "lineNumber": 54,
+                        "name": "saveCustomPreset",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "command",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cwd",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 22,
+                        "isCloned": true,
+                        "lineNumber": 54,
+                        "name": "saveCustomPreset",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 23,
+                        "lineNumber": 58,
+                        "name": "deleteCustomPreset",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "command",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cwd",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "buttonColor",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 24,
+                        "lineNumber": 59,
+                        "name": "updateCustomPreset",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "command",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cwd",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 25,
+                        "isCloned": true,
+                        "lineNumber": 59,
+                        "name": "updateCustomPreset",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "lineNumber": 16,
+                        "name": "workingDirectory",
+                        "notify": "workingDirectoryChanged",
+                        "override": false,
+                        "read": "workingDirectory",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setWorkingDirectory"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "lineNumber": 18,
+                        "name": "gitBranch",
+                        "notify": "gitInfoChanged",
+                        "override": false,
+                        "read": "gitBranch",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "lineNumber": 19,
+                        "name": "gitStatus",
+                        "notify": "gitInfoChanged",
+                        "override": false,
+                        "read": "gitStatus",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "lineNumber": 20,
+                        "name": "gitRemote",
+                        "notify": "gitInfoChanged",
+                        "override": false,
+                        "read": "gitRemote",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "lineNumber": 21,
+                        "name": "busy",
+                        "notify": "busyChanged",
+                        "override": false,
+                        "read": "busy",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "lineNumber": 22,
+                        "name": "databaseOpen",
+                        "notify": "databaseOpenChanged",
+                        "override": false,
+                        "read": "databaseOpen",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "lineNumber": 23,
+                        "name": "databasePath",
+                        "notify": "databaseOpenChanged",
+                        "override": false,
+                        "read": "databasePath",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "virtual": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "lineNumber": 24,
+                        "name": "useSystemTerminal",
+                        "notify": "useSystemTerminalChanged",
+                        "override": false,
+                        "read": "useSystemTerminal",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "virtual": false,
+                        "write": "setUseSystemTerminal"
+                    }
+                ],
+                "qualifiedClassName": "WorkstationBridge",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "lineNumber": 66,
+                        "name": "workingDirectoryChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "lineNumber": 67,
+                        "name": "gitInfoChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "lineNumber": 68,
+                        "name": "busyChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "lineNumber": 69,
+                        "name": "databaseOpenChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "lineNumber": 70,
+                        "name": "useSystemTerminalChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "lineNumber": 71,
+                        "name": "terminalCleared",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "text",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isStdErr",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 6,
+                        "lineNumber": 72,
+                        "name": "outputLine",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "text",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "isStdErr",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 7,
+                        "lineNumber": 75,
+                        "name": "onRunnerOutput",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "exitCode",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 8,
+                        "lineNumber": 76,
+                        "name": "onRunnerFinished",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "workstation_bridge.h",
+        "outputRevision": 69
+    }
+]

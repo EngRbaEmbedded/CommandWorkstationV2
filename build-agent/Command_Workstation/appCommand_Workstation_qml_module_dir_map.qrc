@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/Command_Workstation">/home/rbabynho/workspace/Command_Workstation/build-agent/Command_Workstation</file>
+
+  </qresource>
+</RCC>

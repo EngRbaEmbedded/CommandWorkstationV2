@@ -1,0 +1,14 @@
+--bare
+-I
+/home/rbabynho/workspace/Command_Workstation/build-agent
+-I
+/home/rbabynho/workspace/Command_Workstation/build-agent/Command_Workstation
+-I
+/home/rbabynho/workspace/Command_Workstation/build-agent
+-I
+/home/rbabynho/Qt/6.11.0/gcc_64/qml
+--resource
+/home/rbabynho/workspace/Command_Workstation/build-agent/.qt/rcc/qmake_Command_Workstation.qrc
+--resource
+/home/rbabynho/workspace/Command_Workstation/build-agent/.qt/rcc/appCommand_Workstation_raw_qml_0.qrc
+/home/rbabynho/workspace/Command_Workstation/Main.qml

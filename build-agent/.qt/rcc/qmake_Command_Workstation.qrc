@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Command_Workstation">
+    <file alias="qmldir">/home/rbabynho/workspace/Command_Workstation/build-agent/Command_Workstation/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Command_Workstation/">
+    <file alias="Main.qml">/home/rbabynho/workspace/Command_Workstation/Main.qml</file>
+  </qresource>
+</RCC>
+

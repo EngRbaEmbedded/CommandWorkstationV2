@@ -1,0 +1,14 @@
+-rootPath
+/home/rbabynho/workspace/Command_Workstation
+-cmake-output
+-output-file
+/home/rbabynho/workspace/Command_Workstation/build-agent/.qt/qml_imports/appCommand_Workstation_build.cmake
+-importPath
+/home/rbabynho/workspace/Command_Workstation/build-agent
+-importPath
+/home/rbabynho/workspace/Command_Workstation/build-agent/Command_Workstation
+-importPath
+/home/rbabynho/Qt/6.11.0/gcc_64/qml
+-qrcFiles
+/home/rbabynho/workspace/Command_Workstation/build-agent/.qt/rcc/qmake_Command_Workstation.qrc
+/home/rbabynho/workspace/Command_Workstation/build-agent/.qt/rcc/appCommand_Workstation_raw_qml_0.qrc

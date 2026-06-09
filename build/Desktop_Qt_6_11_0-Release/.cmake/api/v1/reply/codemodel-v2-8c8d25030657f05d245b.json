@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-5f47ca0b21e884c80d4e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Command_Workstation",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Release-f87a3a2ff9b1a9b20446.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-2fe3e36fdb7bd842a027.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-79eaa8efb86854b9c497.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-37919996b1b19191a954.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-d721003855ae308e6598.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation-Release-4c54c0f773ca7dc8f80b.json",
+					"name" : "appCommand_Workstation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_autogen-Release-16018f4fea36d8421fd0.json",
+					"name" : "appCommand_Workstation_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_autogen_timestamp_deps-Release-fa5e0dc28a8e3a353c5a.json",
+					"name" : "appCommand_Workstation_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_copy_qml-Release-9b3b519a82df513fc4c6.json",
+					"name" : "appCommand_Workstation_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_copy_res-Release-d174e000c6d94ab93deb.json",
+					"name" : "appCommand_Workstation_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_qmlimportscan-Release-20d4d08e64d8b55eef4c.json",
+					"name" : "appCommand_Workstation_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_qmllint-Release-44bd10a5711b91861f9d.json",
+					"name" : "appCommand_Workstation_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_qmllint_json-Release-cbead3e686d3825f2169.json",
+					"name" : "appCommand_Workstation_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_qmllint_module-Release-f1113b46c814d2d08811.json",
+					"name" : "appCommand_Workstation_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appCommand_Workstation_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appCommand_Workstation_qmltyperegistration-Release-02dd36f85791dc6d71ce.json",
+					"name" : "appCommand_Workstation_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_qml_context_properties-Release-aaa7b88e008af80dbfb1.json",
+					"name" : "clean_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dump_qml_context_properties::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dump_qml_context_properties-Release-6fe86cc6ace06058daf9.json",
+					"name" : "dump_qml_context_properties",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_qmlls_build_ini_file::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_qmlls_build_ini_file-Release-edd1d25591d0a34a7fd3.json",
+					"name" : "generate_qmlls_build_ini_file",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appCommand_Workstation_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appCommand_Workstation_aotstats_target-Release-17a7ae83d2b82903a8de.json",
+					"name" : "module_appCommand_Workstation_aotstats_target",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release",
+		"source" : "/home/rbabynho/workspace/Command_Workstation"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

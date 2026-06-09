@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appCommand_Workstation_FILE /home/rbabynho/workspace/Command_Workstation/build-agent/appCommand_Workstation)
+set(__QT_DEPLOY_TARGET_appCommand_Workstation_TYPE EXECUTABLE)

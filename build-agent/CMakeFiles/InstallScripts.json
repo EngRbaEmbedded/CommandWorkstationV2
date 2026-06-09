@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/rbabynho/workspace/Command_Workstation/build-agent/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

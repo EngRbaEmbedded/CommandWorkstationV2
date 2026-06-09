@@ -1,0 +1,16 @@
+--bare
+-I
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release
+-I
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release/Command_Workstation
+-I
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release
+-I
+/home/rbabynho/Qt/6.11.0/gcc_64/qml
+--resource
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release/.qt/rcc/qmake_Command_Workstation.qrc
+--resource
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release/.qt/rcc/appCommand_Workstation_raw_qml_0.qrc
+/home/rbabynho/workspace/Command_Workstation/Main.qml
+--json
+/home/rbabynho/workspace/Command_Workstation/build/Desktop_Qt_6_11_0-Release/appCommand_Workstation_qmllint.json
